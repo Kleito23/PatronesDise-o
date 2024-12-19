@@ -1,0 +1,11 @@
+public class StandardRoom implements Room {
+    private String id;
+    private String type;
+    private double price;
+    private String status;
+
+    @Override
+    public double getPrice() {
+        return price;   
+    }   
+}
